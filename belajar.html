@@ -8,5 +8,39 @@
 <body>
     <!-- paragraf-->
     <p style="color: red"> hello world! </p>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <br>
+
+    <form action="nama">nama: </form>
+    <input type="text" name="nama">
+    <br>
+    <form action="umur">umur: </form>
+    <input type="number" mmin=1 max=120 name="umur">
+    <br>
+     <br>
+    <label for="komentar">comment:</label><br>
+    <textarea id="komentar" name="komentar" rows="4" placeholder="tulis komentar disini"></textarea>
+    <br>
+    <label for="kelamin">jenis kelamin: </label><br>
+    <input type="radio" value="jenis kelamin" name="jenis kelamin">pria
+    <input type="radio" value="jenis kelamin" name="jenis kelamin">wanita 
+    <select id="kelamin" name="kelamin">
+        <option value="pria">pria</option>
+        <option value="wanita">wanita</option>
+   
+    
 </body>
 </html>
